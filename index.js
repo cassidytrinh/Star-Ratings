@@ -1,8 +1,7 @@
 var clear = $(".clear-btn");
 var stars = $("#star-container li")
 
-stars.on('mouseenter', hoverStars);
-stars.on('mouseleave', clearStars);
+stars.on('mouseover', hoverStars);
 stars.on('click', fillStars);
 clear.on('click', clearStars);
 
