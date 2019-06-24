@@ -1,5 +1,5 @@
 * {
-  background-color: #A9BFC0;
+  background-color: #748663;
 }
 .top {
   text-align:center;
@@ -23,23 +23,22 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   display:flex;
-  /* flex-direction:row; */
   justify-content:center;
   list-style-type:none;
 }
 .star {
-  background: url('./assets/emptystar.png');
+  background: url('./assets/emptymonkey.png');
   background-size: cover;
   width:100px;
   height:100px;
   margin:5px;
 }
 .hover {
-  background: url('./assets/hoverstar.png');
+  background: url('./assets/hovermonkey.png');
   background-size: cover;
 }
 .filled {
-  background: url('./assets/filledstar.png');
+  background: url('./assets/filledmonkey.png');
   background-size: cover;
 }
 .btn-container {

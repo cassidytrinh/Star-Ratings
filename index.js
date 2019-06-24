@@ -18,11 +18,16 @@ function fillStars() {
   stars.removeClass('hover');
   stars.slice(0, starNum).addClass('filled');
 }
-
+function clearHover() {
+  stars.removeClass('hover');
+}
+function clearFill() {
+  stars.removeClass('filled');
+}
 // function hoverStars() {
 //   stars.removeClass('filled');
 //   stars.removeClass('hover');
-//   var starNum = $(this).index() + 1;
+//   var starNum = $(this).attr('id');
 //   for(i=1; i <=5; i++) {
 //     numID = "#" + i.toString();
 //     if(i<=starNum) {
@@ -33,7 +38,7 @@ function fillStars() {
 // function fillStars() {
 //   stars.removeClass('filled');
 //   stars.removeClass('hover');
-//   var starNum = $(this).index() + 1;
+//   var starNum = $(this).attr('id');
 //   for(i=1; i <=5; i++) {
 //     numID = "#" + i.toString();
 //     if(i<=starNum) {
@@ -41,9 +46,3 @@ function fillStars() {
 //     }
 //   }
 // }
-function clearHover() {
-  stars.removeClass('hover');
-}
-function clearFill() {
-  stars.removeClass('filled');
-}
