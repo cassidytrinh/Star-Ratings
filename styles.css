@@ -17,9 +17,10 @@ h3 {
   font-size: 20px;
 }
 #star-container {
+  /* background-color: #2C422A; */
   margin: 50px;
-  width: 550px;
-  height: 100px;
+  width: 525px;
+  height: 105px;
   margin-left: auto;
   margin-right: auto;
   display:flex;
@@ -28,6 +29,7 @@ h3 {
 }
 .star {
   background: url('./assets/emptymonkey.png');
+  /* border: 1px solid black; */
   background-size: cover;
   width:100px;
   height:100px;
